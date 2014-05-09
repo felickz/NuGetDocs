@@ -1,0 +1,268 @@
+body {
+    background-color: #D4D6D7;
+    min-width: 600px;
+    margin: 0px auto;
+    font-family: 'Segoe UI', 'Trebuchet MS', 'Verdana', 'Helvetica', 'Sans-Serif';
+}
+
+@media all and (min-width: 1368px) {
+    body {
+        padding: 0px 20px;
+    }
+}
+
+a {
+    color: #0072C6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: white;
+    padding: 0px 85px;
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        padding: 0px 15px;
+    }
+}
+
+.header .logo {
+    margin: 20px 20px 0px 0px;
+    width: 120px;
+}
+
+.header .search {
+    float: right;
+    margin: 24px 0px 0px 0px;
+    height: 30px;
+    border: 1px solid #D2D2D2;
+    white-space: nowrap;
+}
+
+#packagesearchbox {
+    padding: 0px 0px 0px 19px;
+    width: 592px;
+    border: 0px;
+    height: 30px;
+}
+
+@media all and (max-width: 961px) {
+    #packagesearchbox {
+        width: 492px;
+    }
+}
+
+@media all and (max-width: 861px) {
+    #packagesearchbox {
+        width: 392px;
+    }
+}
+
+@media all and (max-width: 761px) {
+    #packagesearchbox {
+        width: 292px;
+    }
+}
+
+@media all and (max-width: 661px) {
+    #packagesearchbox {
+        width: 192px;
+    }
+}
+
+#packagesearchbutton {
+    width: 33px;
+    height: 30px;
+    background-image: url(/images/search-button.png);
+    border: 0px;
+    margin: 0px 0px 0px -4px;
+    padding: 0px;
+}
+
+.header nav {
+    clear: both;
+}
+
+.header nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header nav ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+
+.header nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.header nav ul li a {
+    font-family: 'Segoe UI Semibold','Segoe UI','Arial';
+    font-size: 13pt;
+    text-transform: uppercase;
+    color: #838383;
+}
+
+.header nav ul li.current a {
+    color: black;
+}
+
+.header nav ul li a:hover {
+    color: #0077A0;
+}
+
+.twitter {
+    float: right;
+    margin-right: 10px;
+}
+
+.header .headerbottomborder {
+    clear: both;
+    height: 0px;
+    border-top: 1px solid #BDBDBD;
+    margin: 0px -85px;
+}
+
+@media all and (max-width: 1024px) {
+    .header .headerbottomborder {
+        margin: 0px -15px;
+    }
+}
+
+.content {
+    background-color: #ECEEEF;
+    padding: 5px 85px 0px 85px;
+    margin-top: 8px;
+}
+
+@media all and (max-width: 1024px) {
+    .content {
+        padding: 5px 15px 0px 15px;
+    }
+}
+
+.content nav {
+    clear: both;
+}
+
+.content nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content nav ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-right: 1px solid #505050;
+}
+
+.content nav ul li:last-child {
+    border-right: 0px;
+}
+
+.content nav ul li a {
+    font-family: 'Segoe UI Semibold','Segoe UI','Arial';
+    font-size: 13pt;
+    color: #0072C6;
+}
+
+.content nav ul li.current a {
+    color: #505050;
+}
+
+.content .feed {
+    float: right;
+}
+
+.content .posts {
+    clear: both;
+    background-color: white;
+}
+
+.content .post {
+    padding: 0px 40px 20px 40px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.content .post:last-child {
+    border-bottom: 0px;
+}
+
+.content .post header h1 {
+    font-family: 'Segoe UI Semibold','Segoe UI','Arial';
+    font-size: 18pt;
+    padding-top: 10px;
+}
+
+.content .archive {
+    background-color: #ECEEEF;
+    padding-bottom: 100px;
+}
+
+.content .archive h2 {
+    font-size: 12pt;
+    margin-top: 36px;
+    margin-bottom: 14px;
+}
+
+.content .archive .list {
+    background-color: white;
+    width: 100%;
+    clear: both;
+}
+
+.content .archive .list td {
+    border-bottom: 1px solid #D2D2D2;
+    padding: 20px 0px;
+}
+
+.content .archive .list td:first-child {
+    padding-left: 40px;
+}
+
+.content .archive .list .post .date {
+    font-size: 14pt;
+    color: #A2A2A2;
+    width: 200px;
+}
+
+.content .archive .list .post .title {
+    font-size: 14pt;
+}
+
+.content .archive .list .footer td {
+    color: #A2A2A2;
+    font-size: 13pt;
+    border-bottom: 0px;
+}
+
+footer {
+    background-color: white;
+    border-top: 1px solid #D2D2D2;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer .copyright {
+    margin: 0px auto;
+}
+
+footer .copyright p {
+    text-align: center;
+    margin: 0px auto 5px auto;
+    font-size: .7em;
+}        
